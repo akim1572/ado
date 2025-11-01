@@ -1,5 +1,16 @@
 [
         {
+                "name": "3D",
+                "type": "3d",
+                "extensions": [
+                        ".obj",
+                        ".stl",
+                        ".fbx",
+                        ".gltf",
+                        ".dae"
+                ]
+        },
+        {
                 "name": "Ada",
                 "type": "code",
                 "extensions": [
@@ -21,7 +32,6 @@
                 "extensions": [
                         ".asm",
                         ".a51",
-                        ".inc",
                         ".nasm"
                 ]
         },
@@ -68,7 +78,6 @@
                         ".hh",
                         ".hpp",
                         ".hxx",
-                        ".inc",
                         ".inl",
                         ".ipp",
                         ".tcc",
@@ -84,10 +93,79 @@
                 ]
         },
         {
+                "name": "COBOL",
+                "type": "code",
+                "extensions": [
+                        ".cob",
+                        ".cbl",
+                        ".ccp",
+                        ".cobol",
+                        ".cpy"
+                ]
+        },
+        {
+                "name": "Compression",
+                "type": "compressed",
+                "extensions": [
+                        ".zip",
+                        ".rar",
+                        ".7z",
+                        ".gz",
+                        ".tar.gz",
+                        ".tar",
+                        ".bz2",
+                        ".iso",
+                        ".cab"
+                ]
+        },
+        {
+                "name": "CSS",
+                "type": "markup",
+                "extensions": [
+                        ".css",
+                        ".sass",
+                        ".scss"
+                ]
+        },
+        {
+                "name": "CSV",
+                "type": "data",
+                "extensions": [
+                        ".csv"
+                ]
+        },
+        {
                 "name": "Dart",
                 "type": "code",
                 "extensions": [
                         ".dart"
+                ]
+        },
+        {
+                "name": "Dockerfile",
+                "type": "data",
+                "extensions": [
+                        ".dockerfile"
+                ]
+        },
+        {
+                "name": "Elixir",
+                "type": "code",
+                "extensions": [
+                        ".ex",
+                        ".exs"
+                ]
+        },
+        {
+                "name": "Erlang",
+                "type": "code",
+                "extensions": [
+                        ".erl",
+                        ".es",
+                        "escript",
+                        ".hrl",
+                        ".xrl",
+                        ".yrl"
                 ]
         },
         {
@@ -109,6 +187,33 @@
                 "type": "code",
                 "extensions": [
                         ".go"
+                ]
+        },
+        {
+                "name": "Haskell",
+                "type": "code",
+                "extensions": [
+                        ".hs",
+                        ".hsc"
+                ]
+        },
+        {
+                "name": "HTML",
+                "type": "markup",
+                "extensions": [
+                        ".html",
+                        ".htm",
+                        ".html.hl",
+                        ".st",
+                        ".xht",
+                        ".xhtml"
+                ]
+        },
+        {
+                "name": "HTTP",
+                "type": "data",
+                "extensions": [
+                        ".http"
                 ]
         },
         {
@@ -163,12 +268,74 @@
                 ]
         },
         {
+                "name": "JSON",
+                "type": "data",
+                "extensions": [
+                        ".json",
+                        ".geojson",
+                        ".lock",
+                        ".topojson"
+                ]
+        },
+        {
+                "name": "Julia",
+                "type": "code",
+                "extensions": [
+                        ".jl"
+                ]
+        },
+        {
                 "name": "Kotlin",
                 "type": "code",
                 "extensions": [
                         ".kt",
                         ".ktm",
                         ".kts",
+                ]
+        },
+        {
+                "name": "Lisp",
+                "type": "code",
+                "extensions": [
+                        ".lisp",
+                        ".asd",
+                        ".cl",
+                        ".l",
+                        ".lsp",
+                        ".ny",
+                        ".podsl",
+                        ".sexp"
+                ]
+        },
+        {
+                "name": "Lossless Audio",
+                "type": "audio",
+                "extensions": [
+                        ".wav",
+                        ".aiff",
+                        ".flac",
+                        ".alac"
+                ]
+        },
+        {
+                "name": "Lossy Audio",
+                "type": "audio",
+                "extensions": [
+                        ".mp3",
+                        ".aac",
+                        ".m4a",
+                        ".ogg"
+                ]
+        },
+        {
+                "name": "Lua",
+                "type": "code",
+                "extensions": [
+                        ".lua",
+                        ".nse",
+                        ".pd_lua",
+                        ".rbxs",
+                        ".wlua"
                 ]
         },
         {
@@ -180,15 +347,50 @@
                 ]
         },
         {
+                "name": "Microsoft Office",
+                "type": "document",
+                "extensions": [
+                        ".doc",
+                        ".docx",
+                        ".xls",
+                        ".xlsx",
+                        ".ppt",
+                        ".pptx"
+        },
+        {
+                "name": "Objective-C",
+                "type": "code",
+                "extensions": [
+                        ".m",
+                        ".h",
+                ]
+        },
+        {
+                "name": "OpenDocument",
+                "type": "document",
+                "extensions": [
+                        ".odt",
+                        ".ods",
+                        ".odp",
+                        ".odg"
+                ]
+        },
+        {
                 "name": "Pascal",
                 "type": "code",
                 "extensions": [
                         ".pas",
                         ".dfm",
                         ".dpr",
-                        ".inc",
                         ".lpr",
                         ".pp"
+                ]
+        },
+        {
+                "name": "PDF",
+                "type": "document",
+                "extensions": [
+                        ".pdf"
                 ]
         },
         {
@@ -198,7 +400,6 @@
                         ".pl",
                         ".al",
                         ".cgi",
-                        ".fcgi",
                         ".perl",
                         ".ph",
                         ".plx",
@@ -215,13 +416,20 @@
                         ".php",
                         ".aw",
                         ".ctp", 
-                        ".fcgi",
-                        ".inc",
                         ".php3",
                         ".php4",
                         ".php5",
                         ".phps",
                         ".phpt"
+                ]
+        },
+        {
+                "name": "Powershell",
+                "type": "code",
+                "extensions": [
+                        ".ps1",
+                        ".psd1",
+                        ".psm1"
                 ]
         },
         {
@@ -231,7 +439,6 @@
                         ".py",
                         ".bzl",
                         ".cgi",
-                        ".fcgi",
                         ".gyp",
                         ".lmi",
                         ".pyde",
@@ -254,11 +461,167 @@
                 ]
         },
         {
+                "name": "Raster Images",
+                "type": "image",
+                "extensions": [
+                        ".jpg",
+                        ".jpeg",
+                        ".png",
+                        ".gif",
+                        ".tiff",
+                        ".tif",
+                        ".bmp",
+                        ".webp",
+                        ".ecw",
+                        ".psd",
+                        ".rpf"
+                ]
+        },
+        {
+                "name": "Ruby",
+                "type": "code",
+                "extensions": [
+                        ".rb",
+                        ".builder",
+                        ".gemspec",
+                        ".god",
+                        ".irbrc",
+                        ".jbuilder",
+                        ".mspec",
+                        ".pluginspec",
+                        ".podspec",
+                        ".rabl",
+                        ".rake",
+                        ".rbuild",
+                        ".rbw",
+                        ".rbx",
+                        ".ru",
+                        ".ruby",
+                        ".thor",
+                        ".watchr"
+                ]
+        },
+        {
                 "name": "Rust",
                 "type": "code",
                 "extensions": [
                         ".rs",
                         ".rs.in"
+                ]
+        },
+        {
+                "name": "Scala",
+                "type": "code",
+                "extensions": [
+                        ".scala",
+                        ".stb",
+                        ".sc"
+                ]
+        },
+        {
+                "name": "Shell",
+                "type": "code",
+                "extensions": [
+                        ".sh",
+                        ".bash",
+                        ".bats",
+                        ".cgi",
+                        ".command",
+                        ".ksh",
+                        ".sh.in",
+                        ".tmux",
+                        ".tool",
+                        ".zsh"
+                ]
+        },
+        {
+                "name": "SQL",
+                "type": "data",
+                "extensions": [
+                        ".sql",
+                        ".cql",
+                        ".ddl",
+                        ".prc",
+                        ".tab",
+                        ".udf",
+                        ".viw"
+                ]
+        },
+        {
+                "name": "SVG",
+                "type": "data",
+                "extensions": [
+                        ".svg"
+                ]
+        },
+        {
+                "name": "Swift",
+                "type": "code",
+                "extensions": [
+                        ".swift"
+                ]
+        },
+        {
+                "name": "TeX",
+                "type": "markup",
+                "extensions": [
+                        ".tex",
+                        ".aux",
+                        ".bbx",
+                        ".bib",
+                        ".cbx",
+                        ".cls",
+                        ".dtx",
+                        ".ins",
+                        ".lbx",
+                        ".ltx",
+                        ".mkii",
+                        ".mkiv",
+                        ".mkvi",
+                        ".sty",
+                        ".toc"
+                ]
+        },
+        {
+                "name": "TXT",
+                "type": "document", 
+                "extensions": [
+                        ".txt"
+                ]
+        },
+        {
+                "name": "Typescript",
+                "type": "code",
+                "extensions": [
+                        ".ts",
+                        ".tsx"
+                ]
+        },
+        {
+                "name": "Vector Images",
+                "type": "image",
+                "extensions": [
+                        ".svg",
+                        ".ai",
+                        ".eps",
+                        ".wmf",
+                        ".dxf",
+                        ".cdr"
+                ]
+        },
+        {
+                "name": "Video",
+                "type": "video",
+                "extensions": [
+                        ".mp4",
+                        ".mov",
+                        ".avi",
+                        ".wmv",
+                        ".mkv",
+                        ".webm",
+                        ".flv",
+                        ".mts",
+                        ".m2ts"
                 ]
         },
         {
@@ -273,6 +636,33 @@
                         ".vba",
                         ".vbhtml",
                         ".vbs"
+                ]
+        },
+        {
+                "name": "Vue",
+                "type": "markup",
+                "extensions": [
+                        ".vue"
+                ]
+        },
+        {
+                "name": "XML",
+                "type": "data",
+                "extensions": [
+                        ".xml",
+                ]
+        },
+        {
+                "name": "YAML",
+                "type": "data",
+                "extensions": [
+                        ".yml",
+                        ".reek",
+                        ".rviz",
+                        ".sublime-syntax",
+                        ".syntax",
+                        ".yaml",
+                        ".yaml-tmlanguage"
                 ]
         },
 ]
