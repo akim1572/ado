@@ -356,6 +356,7 @@
                         ".xlsx",
                         ".ppt",
                         ".pptx"
+                ]
         },
         {
                 "name": "Objective-C",
