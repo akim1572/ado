@@ -1,0 +1,278 @@
+[
+        {
+                "name": "Ada",
+                "type": "code",
+                "extensions": [
+                        ".adb",
+                        ".ada",
+                        ".ads"
+                ]
+        },
+        {
+                "name": "Arduino",
+                "type": "code",
+                "extensions": [
+                        ".ino"
+                ]
+        },
+        {
+                "name": "Assembly",
+                "type": "code",
+                "extensions": [
+                        ".asm",
+                        ".a51",
+                        ".inc",
+                        ".nasm"
+                ]
+        },
+        {
+                "name": "Batch",
+                "type": "code",
+                "extensions": [
+                        ".bat",
+                        ".cmd"
+                ]
+        },
+        {
+                "name": "C",
+                "type": "code",
+                "extensions": [
+                        ".c",
+                        ".cats",
+                        ".h",
+                        ".idc",
+                        ".w"
+                ]
+        },
+        {
+                "name": "C#",
+                "type": "code",
+                "extensions": [
+                        ".cs",
+                        ".cake",
+                        ".cshtml",
+                        ".csx"
+                ]
+        },
+        {
+                "name": "C++",
+                "type": "code",
+                "extensions": [
+                        ".cpp",
+                        ".c++",
+                        ".cc",
+                        ".cp",
+                        ".cxx",
+                        ".h",
+                        ".h++",
+                        ".hh",
+                        ".hpp",
+                        ".hxx",
+                        ".inc",
+                        ".inl",
+                        ".ipp",
+                        ".tcc",
+                        ".tpp",
+                ]
+        },
+        {
+                "name": "CMake",
+                "type": "code",
+                "extensions": [
+                        ".cmake",
+                        ".cmake.in"
+                ]
+        },
+        {
+                "name": "Dart",
+                "type": "code",
+                "extensions": [
+                        ".dart"
+                ]
+        },
+        {
+                "name": "Fortran",
+                "type": "code",
+                "extensions": [
+                        ".f90",
+                        ".f",
+                        ".f03",
+                        ".f08",
+                        ".f77",
+                        ".f95",
+                        ".for",
+                        ".fpp"
+                ]
+        },
+        {
+                "name": "Go",
+                "type": "code",
+                "extensions": [
+                        ".go"
+                ]
+        },
+        {
+                "name": "Java",
+                "type": "code",
+                "extensions": [
+                        ".java",
+                        ".class",
+                        ".jar",
+                        ".jmod",
+                        ".war",
+                        ".jks",
+                        ".javadoc"
+                ]
+        },
+        {
+                "name": "JavaScript",
+                "type": "code",
+                "extensions": [
+                         ".js",
+                         "._js",
+                         ".bones",
+                         ".es",
+                         ".es6",
+                         ".frag",
+                         ".gs",
+                         ".jake",
+                         ".jsb",
+                         ".jscad",
+                         ".jsfl",
+                         ".jsm",
+                         ".jss",
+                         ".njs",
+                         ".pac",
+                         ".sjs",
+                         ".ssjs",
+                         ".sublime-build",
+                         ".sublime-commands",
+                         ".sublime-completions",
+                         ".sublime-keymap",
+                         ".sublime-macro",
+                         ".sublime-menu",
+                         ".sublime-mousemap",
+                         ".sublime-project",
+                         ".sublime-settings",
+                         ".sublime-theme",
+                         ".sublime-workspace",
+                         ".sublime_metrics",
+                         ".sublime_session",
+                         ".xsjs",
+                         ".xsjslib"
+                ]
+        },
+        {
+                "name": "Kotlin",
+                "type": "code",
+                "extensions": [
+                        ".kt",
+                        ".ktm",
+                        ".kts",
+                ]
+        },
+        {
+                "name": "Matlab",
+                "type": "code",
+                "extensions": [
+                        ".matlab",
+                        ".m"
+                ]
+        },
+        {
+                "name": "Pascal",
+                "type": "code",
+                "extensions": [
+                        ".pas",
+                        ".dfm",
+                        ".dpr",
+                        ".inc",
+                        ".lpr",
+                        ".pp"
+                ]
+        },
+        {
+                "name": "Perl",
+                "type": "code",
+                "extensions": [
+                        ".pl",
+                        ".al",
+                        ".cgi",
+                        ".fcgi",
+                        ".perl",
+                        ".ph",
+                        ".plx",
+                        ".pm", 
+                        ".pod",
+                        ".psgi",
+                        ".t"
+                ]
+        },
+        {
+                "name": "PHP",
+                "type": "code",
+                "extensions": [
+                        ".php",
+                        ".aw",
+                        ".ctp", 
+                        ".fcgi",
+                        ".inc",
+                        ".php3",
+                        ".php4",
+                        ".php5",
+                        ".phps",
+                        ".phpt"
+                ]
+        },
+        {
+                "name": "Python",
+                "type": "code",
+                "extensions": [
+                        ".py",
+                        ".bzl",
+                        ".cgi",
+                        ".fcgi",
+                        ".gyp",
+                        ".lmi",
+                        ".pyde",
+                        ".pyp",
+                        ".pyt",
+                        ".pyw",
+                        ".rpy",
+                        ".tac",
+                        ".wsgi",
+                        ".xpy"
+                ]
+        },
+        {
+                "name": "R",
+                "type": "code",
+                "extensions": [
+                        ".r",
+                        ".rd",
+                        ".rsx"
+                ]
+        },
+        {
+                "name": "Rust",
+                "type": "code",
+                "extensions": [
+                        ".rs",
+                        ".rs.in"
+                ]
+        },
+        {
+                "name": "Visual Basic",
+                "type": "code",
+                "extensions": [
+                        ".vb",
+                        ".bas",
+                        ".cls",
+                        ".frm",
+                        ".frx",
+                        ".vba",
+                        ".vbhtml",
+                        ".vbs"
+                ]
+        },
+]
