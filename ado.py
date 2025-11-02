@@ -1,6 +1,11 @@
 import json
 import os
 
+def importExtensions():
+    with open('file_extensions.json', 'r') as ext_file:
+        data = json.load(ext_file)
+        print(data)
+
 def main():
     current_files = os.listdir()
 
@@ -11,6 +16,8 @@ def main():
 
         if not extension:
             continue
+
+        importExtensions()
 
 
 
