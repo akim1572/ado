@@ -1,11 +1,18 @@
+import json
 import os
-import sys
 
 def main():
     current_files = os.listdir()
 
     print("akim's Directory Organizer")
-    print(current_files)
+
+    for i in range(len(current_files)):
+        root, extension = os.path.splitext(current_files[i])
+
+        if not extension:
+            continue
+
+
 
 if __name__ == "__main__":
     main()
