@@ -1,4 +1,4 @@
-{
+[
         {
                 "name": "3d",
                 "extensions": [
@@ -129,7 +129,7 @@
                         ".psm1",
                         ".psd1",
                         ".erl",
-                        ".hrl",
+                        ".hrl"
                 ]
         },
         {
@@ -162,9 +162,9 @@
                         ".odp",
                         ".opg",
                         ".odb",
-                        ".odf",
+                        ".odf"
                 ]
-        }
+        },
         {
                 "name": "image",
                 "extensions": [
@@ -184,7 +184,7 @@
                         ".ico",
                         ".cur",
                         ".tif",
-                        ".eps",
+                        ".eps"
                 ]
         },
         {
@@ -198,7 +198,7 @@
                         ".css",
                         ".mathml",
                         ".tex",
-                        ".docker",
+                        ".docker"
                 ]
         },
         {
@@ -212,7 +212,7 @@
                         ".webm",
                         ".flv",
                         ".mts",
-                        ".m2ts",
+                        ".m2ts"
                 ]
         }
-}
+]
