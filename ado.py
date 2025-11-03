@@ -31,9 +31,8 @@ def main():
         if not extension:
             continue
 
-        new_dir = testExtension(extension, extension_data)
-        shutil.move(current_files[i], new_dir)
-
+        dest = testExtension(extension, extension_data)
+        shutil.move(current_files[i], dest)
 
 if __name__ == "__main__":
     main()
